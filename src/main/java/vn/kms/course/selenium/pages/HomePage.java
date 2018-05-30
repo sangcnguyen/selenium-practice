@@ -23,7 +23,7 @@ public class HomePage extends BasePage {
     @FindBy(id = "XMLID_124_")
     private WebElement logoImage;
 
-    @FindBy(className = "//*[contains(@class,'alert alert-success')]")
+    @FindBy(xpath = "//*[contains(@class,'alert alert-success')]")
     private WebElement logoutMess;
 
     public void clickLogout() {
@@ -44,6 +44,7 @@ public class HomePage extends BasePage {
 
     public String getMessSuccessful() {
         return removeChar(logoutMess.getText(), 0).trim();
+        //return logoutMess.getText().replace("x","").trim();
     }
 
     public String removeChar(String s, int p) {

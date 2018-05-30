@@ -2,25 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="550b5e38-eb61-410d-a04f-290795130d70" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_junit_2_0_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_java_hamcrest_2_0_0_0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SeleniumPractice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SeleniumPractice.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/bases/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/bases/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/pages/ApparelPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/pages/ApparelPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/pages/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/pages/CartPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/pages/GroceriesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/pages/GroceriesPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/vn/kms/course/selenium/tests/Tc1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/vn/kms/course/selenium/tests/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/vn/kms/course/selenium/tests/Tc2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/vn/kms/course/selenium/tests/CartTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/vn/kms/course/selenium/bases/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/vn/kms/course/selenium/bases/BasePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/vn/kms/course/selenium/pages/ApparelPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/vn/kms/course/selenium/pages/ApparelPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/vn/kms/course/selenium/pages/CartPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/vn/kms/course/selenium/pages/CartPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/vn/kms/course/selenium/pages/GroceriesPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/vn/kms/course/selenium/pages/GroceriesPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/vn/kms/course/selenium/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/vn/kms/course/selenium/pages/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/vn/kms/course/selenium/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/vn/kms/course/selenium/pages/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/vn/kms/course/selenium/tests/Tc1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/vn/kms/course/selenium/tests/Tc2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/vn/kms/course/selenium/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/vn/kms/course/selenium/tests/LoginTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,7 +24,7 @@
       <file leaf-file-name="CartPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/pages/CartPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
+            <state relative-caret-position="306">
               <caret line="28" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -55,8 +44,8 @@
       <file leaf-file-name="Product.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/model/Product.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="41" column="7" lean-forward="true" selection-start-line="6" selection-end-line="41" selection-end-column="7" />
+            <state relative-caret-position="697">
+              <caret line="41" column="7" selection-start-line="6" selection-end-line="41" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -64,7 +53,7 @@
       <file leaf-file-name="GroceriesPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/pages/GroceriesPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
+            <state relative-caret-position="85">
               <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -73,11 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomePage.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="HomePage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/pages/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="45" column="46" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
+            <state relative-caret-position="361">
+              <caret line="25" column="55" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
               <folding>
                 <element signature="method#getTextOnMenu#0;class#HomePage#0" />
               </folding>
@@ -85,14 +74,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginPage.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LoginPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/pages/LoginPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+            <state relative-caret-position="374">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="method#logIn#0;class#LoginPage#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/vn/kms/course/selenium/tests/LoginTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
         </entry>
@@ -109,7 +116,7 @@
       <file leaf-file-name="CommonProductPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/pages/CommonProductPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
+            <state relative-caret-position="340">
               <caret line="35" column="64" selection-start-line="35" selection-start-column="64" selection-end-line="35" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -154,9 +161,7 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/pages/ParentProductPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/pages/LoginPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/vn/kms/course/selenium/tests/LoginTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/pages/ChildProductPage.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/bases/BasePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/model/Demo.java" />
         <option value="$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/model/Product.java" />
@@ -165,6 +170,8 @@
         <option value="$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/pages/GroceriesPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/pages/CartPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/pages/CommonProductPage.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/vn/kms/course/selenium/tests/LoginTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/pages/HomePage.java" />
       </list>
     </option>
@@ -189,7 +196,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -282,7 +289,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -302,7 +309,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CartTest">
+  <component name="RunManager" selected="JUnit.LoginTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -462,8 +469,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CartTest" />
         <item itemvalue="JUnit.LoginTest" />
+        <item itemvalue="JUnit.CartTest" />
         <item itemvalue="JUnit.CartTest.validateAddToCart" />
         <item itemvalue="JUnit.CartTest.Validate_add_to_cart_feature" />
       </list>
@@ -483,21 +490,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CartTest - 2018.05.30 at 05h 54m 51s.xml">
-      <configuration name="CartTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CartTest - 2018.05.30 at 05h 56m 11s.xml">
-      <configuration name="CartTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CartTest - 2018.05.30 at 05h 56m 58s.xml">
-      <configuration name="CartTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LoginTest - 2018.05.30 at 06h 03m 18s.xml">
-      <configuration name="LoginTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LoginTest - 2018.05.30 at 06h 03m 58s.xml">
-      <configuration name="LoginTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CartTest - 2018.05.30 at 06h 05m 34s.xml">
       <configuration name="CartTest" configurationId="JUnit" />
     </history-entry>
@@ -513,9 +505,25 @@
     <history-entry file="CartTest - 2018.05.30 at 06h 20m 20s.xml">
       <configuration name="CartTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LoginTest - 2018.05.30 at 13h 09m 43s.xml">
+      <configuration name="LoginTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginTest - 2018.05.30 at 13h 10m 33s.xml">
+      <configuration name="LoginTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginTest - 2018.05.30 at 13h 17m 58s.xml">
+      <configuration name="LoginTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginTest - 2018.05.30 at 13h 19m 15s.xml">
+      <configuration name="LoginTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginTest - 2018.05.30 at 13h 20m 24s.xml">
+      <configuration name="LoginTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49947917" weight="0.32837406" />
@@ -523,11 +531,10 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50104165" side_tool="true" weight="0.37194473" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49895832" weight="0.37194473" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49895832" visible="true" weight="0.37194473" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.159375" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32943678" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.159375" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -537,25 +544,26 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32943678" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49895832" weight="0.37194473" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.159375" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32943678" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3985122" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50104165" side_tool="true" weight="0.37194473" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32943678" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49947917" weight="0.32837406" />
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -758,13 +766,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.11.0/selenium-support-3.11.0.jar!/org/openqa/selenium/support/ui/Select.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -825,9 +826,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
           <caret line="48" selection-start-line="48" selection-end-line="48" />
-          <folding>
-            <element signature="e#1273#1274#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -859,22 +857,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/model/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#142#158#0" expanded="true" />
-            <element signature="e#212#213#0" expanded="true" />
-            <element signature="e#250#251#0" expanded="true" />
-            <element signature="e#301#302#0" expanded="true" />
-            <element signature="e#331#332#0" expanded="true" />
-            <element signature="e#394#395#0" expanded="true" />
-            <element signature="e#432#433#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/model/Demo.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/bases/BasePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="326">
@@ -886,13 +869,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="244">
           <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/vn/kms/course/selenium/tests/LoginTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="25" column="57" selection-start-line="25" selection-start-column="57" selection-end-line="25" selection-end-column="57" />
         </state>
       </provider>
     </entry>
@@ -908,8 +884,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/model/Product.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="41" column="7" lean-forward="true" selection-start-line="6" selection-end-line="41" selection-end-column="7" />
+        <state relative-caret-position="697">
+          <caret line="41" column="7" selection-start-line="6" selection-end-line="41" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -922,7 +898,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/pages/CartPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
+        <state relative-caret-position="306">
           <caret line="28" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -940,7 +916,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/pages/CommonProductPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
+        <state relative-caret-position="340">
           <caret line="35" column="64" selection-start-line="35" selection-start-column="64" selection-end-line="35" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -956,7 +932,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/pages/GroceriesPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
+        <state relative-caret-position="85">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -964,22 +940,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/pages/HomePage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/pages/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="45" column="46" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
+        <state relative-caret-position="374">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
-            <element signature="method#getTextOnMenu#0;class#HomePage#0" />
+            <element signature="method#logIn#0;class#LoginPage#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/pages/LoginPage.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+        <state relative-caret-position="340">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/vn/kms/course/selenium/tests/LoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/pages/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="25" column="55" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
           <folding>
-            <element signature="method#logIn#0;class#LoginPage#0" />
+            <element signature="method#getTextOnMenu#0;class#HomePage#0" />
           </folding>
         </state>
       </provider>

@@ -20,11 +20,10 @@ public class LoginTest extends BaseTest {
         HomePage homePage = new HomePage(webDriver);
         LoginPage loginPage = new LoginPage(webDriver);
         loginPage.goToPage();
-        loginPage.logIn("admin@sample.com", "Kms@2017");
+        loginPage.logIn("admin1@sample.com", "Kms@2017");
 
         Assertions.assertTrue(homePage.getHomePage());
         String[] expectedOutputAfterLogin = {"DASHBOARD", "YOUR ACCOUNT", "LOG OUT"};
-        System.out.print(homePage.getTextOnMenu());
         Assertions.assertArrayEquals(expectedOutputAfterLogin, homePage.getTextOnMenu().toArray());
 
         homePage.clickLogout();
