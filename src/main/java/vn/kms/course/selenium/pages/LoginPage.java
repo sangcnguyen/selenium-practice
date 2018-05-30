@@ -12,20 +12,20 @@ public class LoginPage extends BasePage {
     }
 
     @FindBy(id = "id_username")
-    private WebElement edt_Email;
+    private WebElement emailEdt;
 
     @FindBy(id = "id_password")
-    private WebElement edt_Password;
+    private WebElement passEdt;
 
-    @FindBy(xpath = "//*[@class='btn primary narrow']")
-    private WebElement btn_Login;
+    @FindBy(xpath = "//*[contains(@class,'btn primary narrow')]")
+    private WebElement loginButton;
 
     public void logIn(String email, String password) {
-        edt_Email.clear();
-        edt_Email.sendKeys(email);
-        edt_Password.clear();
-        edt_Password.sendKeys(password);
-        btn_Login.click();
+        emailEdt.clear();
+        emailEdt.sendKeys(email);
+        passEdt.clear();
+        passEdt.sendKeys(password);
+        loginButton.click();
     }
 }
 

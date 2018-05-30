@@ -5,6 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import vn.kms.course.selenium.bases.BasePage;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class HomePage extends BasePage {
@@ -13,60 +14,39 @@ public class HomePage extends BasePage {
         path = "/";
     }
 
-    @FindBy(xpath = "//a[@href='/account/login/']")
-    private WebElement txt_Login;
+    @FindBy(linkText = "Log out")
+    private WebElement logoutLink;
 
-    @FindBy(xpath = "//a[@href='/account/signup/']")
-    private WebElement txt_Register;
-
-    @FindBy(xpath = "//a[@href='/dashboard/']")
-    private WebElement txt_Dashboard;
-
-    @FindBy(xpath = "//a[@href='/profile/']")
-    private WebElement txt_Youraccount;
-
-    @FindBy(xpath = "//a[@href='/account/logout/']")
-    private WebElement txt_Logout;
+    @FindBy(xpath = "//*[contains(@class,'float-right')]/li")
+    private List<WebElement> menuText;
 
     @FindBy(id = "XMLID_124_")
-    private WebElement img_logo;
+    private WebElement logoImage;
 
-    @FindBy(xpath = "//*[@class='alert alert-success']")
-    private WebElement mess_logout;
+    @FindBy(className = "//*[contains(@class,'alert alert-success')]")
+    private WebElement logoutMess;
 
     public void clickLogout() {
-        txt_Logout.click();
+        logoutLink.click();
     }
 
-    public boolean isHomePage() {
-        return img_logo.isDisplayed();
+    public List<String> getTextOnMenu() {
+        List<String> labelList = new ArrayList<String>();
+        for (WebElement element : menuText) {
+            labelList.add(element.getText());
+        }
+        return labelList;
     }
 
-    public String isDashboard() {
-        return txt_Dashboard.getText();
+    public boolean getHomePage() {
+        return logoImage.isDisplayed();
     }
 
-    public String isYourAccount() {
-        return txt_Youraccount.getText();
+    public String getMessSuccessful() {
+        return removeChar(logoutMess.getText(), 0).trim();
     }
 
-    public String isLogout() {
-        return txt_Logout.getText();
-    }
-
-    public String isRegister() {
-        return txt_Register.getText();
-    }
-
-    public String isLogin() {
-        return txt_Login.getText();
-    }
-
-    public String isMessSuccessful() {
-        return removeChar(mess_logout.getText(),0).trim();
-    }
-
-    public String removeChar(String s, int p){
-        return  s.substring(0,p)+s.substring(p+1);
+    public String removeChar(String s, int p) {
+        return s.substring(0, p) + s.substring(p + 1);
     }
 }

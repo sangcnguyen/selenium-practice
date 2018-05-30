@@ -5,7 +5,7 @@ import org.openqa.selenium.support.PageFactory;
 
 
 public class BasePage {
-    private static final String BASE_URL = "http://192.168.74.230/";
+    private static final String BASE_URL = "http://192.168.10.80/";
     protected String path;
     protected WebDriver webDriver;
 
