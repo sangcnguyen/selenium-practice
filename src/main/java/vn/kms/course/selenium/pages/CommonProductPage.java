@@ -33,7 +33,7 @@ public class CommonProductPage extends BasePage {
     @FindBy(id = "id_quantity")
     private WebElement productQuantity;
 
-    @FindBy(xpath = "//*[contains(@class,'product__info__price')]/child::span")
+    @FindBy(xpath = "//*[contains(concat(' ',@class,' '),' product__info__price ')]/child::span")
     private WebElement productPrice;
 
     @FindBy(css = "div.product__info__button")
@@ -65,7 +65,7 @@ public class CommonProductPage extends BasePage {
         enterRandomQuantityNumber();
         clickAddToCard();
         waitForBoxShow();
-        product.putProduct(getProductName(), convertArrayListToString(getProductName(),getProductQuantity(),getTotalPrice()));
+        product.putProduct(getProductName(), convertArrayListToString(getProductName(), getProductQuantity(), getTotalPrice()));
     }
 
     public String getProductName() {
@@ -82,7 +82,7 @@ public class CommonProductPage extends BasePage {
 
     public String getTotalPrice() {
         NumberFormat nf = new DecimalFormat("$#,###.00");
-        return nf.format(Double.parseDouble(getProductPrice().replace("$","").trim()) * Double.parseDouble(getProductQuantity()));
+        return nf.format(Double.parseDouble(getProductPrice().replace("$", "").trim()) * Double.parseDouble(getProductQuantity()));
     }
 
     public void waitForBoxShow() {
@@ -103,7 +103,7 @@ public class CommonProductPage extends BasePage {
         return sb.toString();
     }
 
-    public HashMap<String,String> expectedProduct(){
+    public HashMap<String, String> expectedProduct() {
         return product.getProduct();
     }
 }

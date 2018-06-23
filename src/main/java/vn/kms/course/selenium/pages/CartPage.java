@@ -10,7 +10,6 @@ import java.text.NumberFormat;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 public class CartPage extends BasePage {
     public CartPage(WebDriver webDriver) {
@@ -99,8 +98,8 @@ public class CartPage extends BasePage {
 
     public HashMap<String, String> actualProduct() {
         HashMap<String, String> actualProduct = new HashMap<String, String>();
-        for(int i=0;i<productNameList.size();i++){
-            actualProduct.put(getProductName()[i],convertArrayListToString(getProductName()[i],getProductQuantity()[i],getProductPrice_String()[i]));
+        for (int i = 0; i < productNameList.size(); i++) {
+            actualProduct.put(getProductName()[i], convertArrayListToString(getProductName()[i], getProductQuantity()[i], getProductPrice_String()[i]));
         }
         return actualProduct;
     }

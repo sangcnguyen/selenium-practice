@@ -3,6 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="550b5e38-eb61-410d-a04f-290795130d70" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/pages/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/pages/CartPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/pages/CommonProductPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/pages/CommonProductPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/vn/kms/course/selenium/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/vn/kms/course/selenium/tests/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/kms/course/selenium/pages/CartPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/vn/kms/course/selenium/pages/CartPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/kms/course/selenium/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/vn/kms/course/selenium/pages/HomePage.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,24 +19,16 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="HomePage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/pages/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="25" column="41" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+            <state relative-caret-position="425">
+              <caret line="25" column="57" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="57" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="method#getTextOnMenu#0;class#HomePage#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/vn/kms/course/selenium/tests/LoginTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -38,35 +36,53 @@
       <file leaf-file-name="LoginPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/pages/LoginPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="357">
+              <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CartTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Product.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/model/Product.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="5" column="75" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="75" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/vn/kms/course/selenium/tests/LoginTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="111">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CartTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/vn/kms/course/selenium/tests/CartTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="654">
-              <caret line="42" column="14" lean-forward="true" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
+            <state relative-caret-position="476">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/bases/BaseTest.java">
+      <file leaf-file-name="CommonProductPage.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/pages/CommonProductPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BasePage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/bases/BasePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+            <state relative-caret-position="-519">
+              <caret line="20" column="36" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="36" />
+              <folding>
+                <element signature="method#clickRandomProduct#0;class#CommonProductPage#0" />
+                <element signature="method#enterRandomQuantityNumber#0;class#CommonProductPage#0" />
+                <element signature="method#addRandomProductNQuantity#0;class#CommonProductPage#0" />
+                <element signature="method#waitForBoxShow#0;class#CommonProductPage#0" />
+                <element signature="method#convertArrayListToString#0;class#CommonProductPage#0" />
+                <element signature="e#3344#3345#0" expanded="true" />
+                <element signature="e#3387#3388#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -83,17 +99,8 @@
       <file leaf-file-name="CartPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/pages/CartPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-694">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommonProductPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/pages/CommonProductPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-320">
-              <caret line="35" column="64" selection-start-line="35" selection-start-column="64" selection-end-line="35" selection-end-column="64" />
+            <state relative-caret-position="-184">
+              <caret line="59" column="9" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -137,18 +144,18 @@
         <option value="$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/pages/ParentProductPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/pages/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/pages/ChildProductPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/bases/BasePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/model/Demo.java" />
         <option value="$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/model/Product.java" />
         <option value="$PROJECT_DIR$/src/test/java/vn/kms/course/selenium/tests/CartTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/pages/ApparelPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/pages/GroceriesPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/pages/CartPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/pages/CommonProductPage.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/pages/HomePage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/vn/kms/course/selenium/tests/LoginTest.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/bases/BasePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/vn/kms/course/selenium/tests/LoginTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/pages/CartPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/pages/HomePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/pages/CommonProductPage.java" />
       </list>
     </option>
   </component>
@@ -160,9 +167,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -172,7 +180,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -262,18 +269,11 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="selenium-practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="selenium-practice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="drivers" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -293,9 +293,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LoginTest.loginSuccessfully">
+  <component name="RunManager" selected="JUnit.CartTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="CartTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="vn.kms.course.selenium.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="vn.kms.course.selenium.tests" />
+      <option name="MAIN_CLASS_NAME" value="vn.kms.course.selenium.tests.CartTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="LoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumPractice" />
@@ -384,11 +407,13 @@
     <list>
       <item itemvalue="JUnit.LoginTest" />
       <item itemvalue="JUnit.LoginTest.loginSuccessfully" />
+      <item itemvalue="JUnit.CartTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LoginTest.loginSuccessfully" />
+        <item itemvalue="JUnit.CartTest" />
         <item itemvalue="JUnit.LoginTest" />
+        <item itemvalue="JUnit.LoginTest.loginSuccessfully" />
       </list>
     </recent_temporary>
   </component>
@@ -406,18 +431,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LoginTest - 2018.05.30 at 13h 17m 58s.xml">
-      <configuration name="LoginTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LoginTest - 2018.05.30 at 13h 19m 15s.xml">
-      <configuration name="LoginTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LoginTest - 2018.05.30 at 13h 20m 24s.xml">
-      <configuration name="LoginTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LoginTest - 2018.05.30 at 13h 22m 25s.xml">
-      <configuration name="LoginTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LoginTest - 2018.05.30 at 13h 23m 23s.xml">
       <configuration name="LoginTest" configurationId="JUnit" />
     </history-entry>
@@ -436,20 +449,33 @@
     <history-entry file="LoginTest - 2018.06.20 at 17h 50m 25s.xml">
       <configuration name="LoginTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LoginTest_loginSuccessfully - 2018.06.21 at 18h 23m 58s.xml">
+      <configuration name="LoginTest.loginSuccessfully" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginTest - 2018.06.23 at 11h 28m 53s.xml">
+      <configuration name="LoginTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginTest - 2018.06.23 at 11h 30m 20s.xml">
+      <configuration name="LoginTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CartTest - 2018.06.23 at 11h 32m 23s.xml">
+      <configuration name="CartTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49947917" weight="0.3278867" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50104165" side_tool="true" weight="0.37194473" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49895832" weight="0.3714597" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32897604" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1641791" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16897655" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -460,26 +486,25 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32943678" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49947917" weight="0.3278867" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49895832" weight="0.37194473" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.159375" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32943678" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3985122" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50104165" side_tool="true" weight="0.37194473" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32943678" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49947917" weight="0.32837406" />
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -774,13 +799,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/model/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/bases/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -790,8 +808,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/bases/BasePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+        <state relative-caret-position="102">
+          <caret line="7" column="66" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/model/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="75" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/vn/kms/course/selenium/tests/LoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/vn/kms/course/selenium/tests/CartTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
@@ -804,15 +843,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/pages/CartPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-694">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/pages/CommonProductPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-320">
-          <caret line="35" column="64" selection-start-line="35" selection-start-column="64" selection-end-line="35" selection-end-column="64" />
+        <state relative-caret-position="-184">
+          <caret line="59" column="9" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -825,9 +857,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/pages/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="25" column="41" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+        <state relative-caret-position="425">
+          <caret line="25" column="57" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="57" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="method#getTextOnMenu#0;class#HomePage#0" />
           </folding>
         </state>
@@ -835,22 +868,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/pages/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="357">
+          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/vn/kms/course/selenium/tests/LoginTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/pages/CommonProductPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/vn/kms/course/selenium/tests/CartTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="654">
-          <caret line="42" column="14" lean-forward="true" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
+        <state relative-caret-position="-519">
+          <caret line="20" column="36" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="36" />
+          <folding>
+            <element signature="method#clickRandomProduct#0;class#CommonProductPage#0" />
+            <element signature="method#enterRandomQuantityNumber#0;class#CommonProductPage#0" />
+            <element signature="method#addRandomProductNQuantity#0;class#CommonProductPage#0" />
+            <element signature="method#waitForBoxShow#0;class#CommonProductPage#0" />
+            <element signature="method#convertArrayListToString#0;class#CommonProductPage#0" />
+            <element signature="e#3344#3345#0" expanded="true" />
+            <element signature="e#3387#3388#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
