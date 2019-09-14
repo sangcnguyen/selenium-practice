@@ -10,6 +10,7 @@ import java.text.NumberFormat;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class CartPage extends BasePage {
     public CartPage(WebDriver webDriver) {
@@ -79,7 +80,6 @@ public class CartPage extends BasePage {
 
     public String calculateTotal() {
         NumberFormat nf = new DecimalFormat("#,###.00");
-        String result = "";
         double sum = 0;
         for (double priceList : getProductPrice_Double()) {
             try {
@@ -88,16 +88,15 @@ public class CartPage extends BasePage {
                 e.printStackTrace();
             }
         }
-        return result = "" + nf.format(sum);
+        return "" + nf.format(sum);
     }
 
     public String getTextNode(WebElement e) {
-        String text = e.getText().split("\n")[0].trim();
-        return text;
+        return e.getText().split("\n")[0].trim();
     }
 
-    public HashMap<String, String> actualProduct() {
-        HashMap<String, String> actualProduct = new HashMap<String, String>();
+    public Map<String, String> actualProduct() {
+        Map<String, String> actualProduct = new HashMap<>();
         for (int i = 0; i < productNameList.size(); i++) {
             actualProduct.put(getProductName()[i], convertArrayListToString(getProductName()[i], getProductQuantity()[i], getProductPrice_String()[i]));
         }
@@ -105,7 +104,7 @@ public class CartPage extends BasePage {
     }
 
     public String convertArrayListToString(String name, String quantity, String price) {
-        List<String> strList = new ArrayList<String>();
+        List<String> strList = new ArrayList<>();
         strList.add(name);
         strList.add(quantity);
         strList.add(price);

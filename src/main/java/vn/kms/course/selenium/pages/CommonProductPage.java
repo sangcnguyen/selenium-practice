@@ -10,14 +10,10 @@ import vn.kms.course.selenium.model.Product;
 
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Random;
+import java.util.*;
 
 public class CommonProductPage extends BasePage {
-    private Random rand = new Random();
-    private int randomValue;
+    private Random rand;
     Product product = new Product();
 
     public CommonProductPage(WebDriver webDriver) {
@@ -45,7 +41,7 @@ public class CommonProductPage extends BasePage {
     public void clickRandomProduct() {
         WebDriverWait wait = new WebDriverWait(webDriver, 50);
         wait.until(ExpectedConditions.visibilityOfAllElements(productImages));
-        randomValue = rand.nextInt(productImages.size());
+        int randomValue = rand.nextInt(productImages.size());
         productImages.get(randomValue).click();
     }
 
@@ -91,7 +87,7 @@ public class CommonProductPage extends BasePage {
     }
 
     public String convertArrayListToString(String name, String quantity, String price) {
-        List<String> strList = new ArrayList<String>();
+        List<String> strList = new ArrayList<>();
         strList.add(name);
         strList.add(quantity);
         strList.add(price);
@@ -103,7 +99,7 @@ public class CommonProductPage extends BasePage {
         return sb.toString();
     }
 
-    public HashMap<String, String> expectedProduct() {
+    public Map<String, String> expectedProduct() {
         return product.getProduct();
     }
 }

@@ -1,22 +1,14 @@
 package vn.kms.course.selenium.tests;
 
-import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import vn.kms.course.selenium.bases.BaseTest;
-import vn.kms.course.selenium.pages.*;
-
+import vn.kms.course.selenium.pages.ApparelPage;
+import vn.kms.course.selenium.pages.CartPage;
+import vn.kms.course.selenium.pages.CommonProductPage;
+import vn.kms.course.selenium.pages.GroceriesPage;
 
 public class CartTest extends BaseTest {
-    private WebDriver webDriver;
-
-    @BeforeEach
-    public void beforeEach() {
-        webDriver = new ChromeDriver();
-    }
 
     @Test
     public void validateAddToCart() {
@@ -38,10 +30,5 @@ public class CartTest extends BaseTest {
         Assertions.assertTrue(commonProductPage.expectedProduct().equals(cartPage.actualProduct()));
         // Subtotal
         Assertions.assertEquals(cartPage.getSubtotal(), cartPage.calculateTotal());
-    }
-
-    @AfterEach
-    public void afterEach() {
-        webDriver.quit();
     }
 }

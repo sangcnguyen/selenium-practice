@@ -18,10 +18,10 @@ public class HomePage extends BasePage {
     private WebElement logoutLink;
 
     @FindBy(xpath = "//*[contains(concat(' ',@class,' '),' float-right ')]/li")
-    private List<WebElement> menuText;
+    private List<WebElement> menuTxt;
 
     @FindBy(id = "XMLID_124_")
-    private WebElement logoImage;
+    private WebElement logoImg;
 
     @FindBy(xpath = "//*[contains(concat(' ',@class,' '),' alert alert-success ')]")
     private WebElement logoutMess;
@@ -31,15 +31,15 @@ public class HomePage extends BasePage {
     }
 
     public List<String> getTextOnMenu() {
-        List<String> labelList = new ArrayList<String>();
-        for (WebElement element : menuText) {
+        List<String> labelList = new ArrayList<>();
+        for (WebElement element : menuTxt) {
             labelList.add(element.getText());
         }
         return labelList;
     }
 
     public boolean getHomePage() {
-        return logoImage.isDisplayed();
+        return logoImg.isDisplayed();
     }
 
     public String getMessSuccessful() {

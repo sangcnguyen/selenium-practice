@@ -3,9 +3,9 @@ package vn.kms.course.selenium.model;
 import java.util.*;
 
 public class Product {
-    private HashMap<String, String> product = new HashMap<String, String>();
+    private HashMap<String, String> product = new HashMap<>();
 
-    public HashMap<String, String> getProduct() {
+    public Map<String, String> getProduct() {
         return product;
     }
 
