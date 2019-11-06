@@ -1,15 +1,40 @@
-package vn.kms.course.selenium.model;
-
-import java.util.*;
+package com.github.sn.model;
 
 public class Product {
-    private HashMap<String, String> product = new HashMap<>();
+    private String productName;
+    private String productPrice;
+    private String productQuantity;
 
-    public Map<String, String> getProduct() {
-        return product;
+    public Product() {
     }
 
-    public void putProduct(String k, String v) {
-        product.put(k, v);
+    public Product(String productName, String productPrice, String productQuantity) {
+        this.productName = productName;
+        this.productPrice = productPrice;
+        this.productQuantity = productQuantity;
+    }
+
+    public String getProductName() {
+        return productName;
+    }
+
+    public void setProductName(String productName) {
+        this.productName = productName;
+    }
+
+    public String getProductPrice() {
+        return productPrice;
+    }
+
+    public void setProductPrice(String productPrice) {
+        this.productPrice = productPrice;
+    }
+
+    public String getProductQuantity() {
+        return productQuantity;
+    }
+
+    public void setProductQuantity(String productQuantity) {
+        this.productQuantity = productQuantity;
     }
 }
