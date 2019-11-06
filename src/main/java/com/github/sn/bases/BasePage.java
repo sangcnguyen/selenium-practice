@@ -1,12 +1,20 @@
-package vn.kms.course.selenium.bases;
+package com.github.sn.bases;
 
+import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.util.List;
+import java.util.Random;
 
 public class BasePage {
     private static final String BASE_URL = "https://demo.getsaleor.com/en/";
     protected String path;
-    protected WebDriver webDriver;
+    public WebDriver webDriver;
+    private WebDriverWait webDriverWait;
 
     public BasePage(WebDriver webDriver) {
         this.webDriver = webDriver;
@@ -31,5 +39,33 @@ public class BasePage {
 
     public void goTo(String link) {
         this.webDriver.get(link);
+    }
+
+    public int randNumberBetween(int min, int max) {
+        Random random = new Random();
+        return random.nextInt(max - min) + min;
+    }
+
+    public int randNumberBetween(int min, int max, int exclusiveNum) {
+        int number = randNumberBetween(min, max);
+        if (number == exclusiveNum) {
+            randNumberBetween(min, max, exclusiveNum);
+        }
+        return number;
+    }
+
+
+    public void waitForElementClickable(WebElement element) {
+        webDriverWait = new WebDriverWait(webDriver, 10);
+        try {
+            webDriverWait.until(ExpectedConditions.elementToBeClickable(element));
+        } catch (StaleElementReferenceException ex) {
+            webDriverWait.until(ExpectedConditions.elementToBeClickable(element));
+        }
+    }
+
+    public void waitForAllElements(List<WebElement> elements) {
+        webDriverWait = new WebDriverWait(webDriver, 30);
+        webDriverWait.until(ExpectedConditions.visibilityOfAllElements(elements));
     }
 }

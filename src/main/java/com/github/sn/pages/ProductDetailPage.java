@@ -1,25 +1,18 @@
 package com.github.sn.pages;
 
+import com.github.sn.bases.BasePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import com.github.sn.bases.BasePage;
-import com.github.sn.model.Product;
 
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
-import java.util.*;
 
-public class CommonProductPage extends BasePage {
-    //private Random rand;
-    Product product = new Product();
+public class ProductDetailPage extends BasePage {
 
-    public CommonProductPage(WebDriver webDriver) {
+    public ProductDetailPage(WebDriver webDriver) {
         super(webDriver);
     }
-
 
     @FindBy(className = "product__info__name")
     private WebElement productName;
@@ -31,30 +24,27 @@ public class CommonProductPage extends BasePage {
     private WebElement productPrice;
 
     @FindBy(css = "div.product__info__button")
-    private WebElement addButton;
+    private WebElement addToCartButton;
 
-    @FindBy(id = "cart-dropdown-list")
+    @FindBy(id = "checkout-preview-dropdown-list")
     private WebElement showBox;
 
 
     public void enterRandomQuantityNumber() {
-        //rand = new Random();
-        // int randomNum = rand.nextInt((50 - 1) + 1) + 1;
         productQuantity.clear();
-        //productQuantity.sendKeys(String.valueOf(randomNum));
-        productQuantity.sendKeys(String.valueOf(randIn(0, 50)));
+        productQuantity.sendKeys(String.valueOf(randNumberBetween(0, 50)));
     }
 
     public void clickAddToCard() {
-        addButton.click();
+        addToCartButton.click();
     }
 
+    public void i
+
     public void addRandomProductNQuantity() {
-        // clickRandomProduct();
         enterRandomQuantityNumber();
         clickAddToCard();
-        waitForBoxShow();
-        product.putProduct(getProductName(), convertArrayListToString(getProductName(), getProductQuantity(), getTotalPrice()));
+        waitForElementClickable(showBox);
     }
 
     public String getProductName() {
@@ -72,27 +62,5 @@ public class CommonProductPage extends BasePage {
     public String getTotalPrice() {
         NumberFormat nf = new DecimalFormat("$#,###.00");
         return nf.format(Double.parseDouble(getProductPrice().replace("$", "").trim()) * Double.parseDouble(getProductQuantity()));
-    }
-
-    public void waitForBoxShow() {
-        WebDriverWait wait = new WebDriverWait(webDriver, 5);
-        wait.until(ExpectedConditions.elementToBeClickable(showBox));
-    }
-
-    public String convertArrayListToString(String name, String quantity, String price) {
-        List<String> strList = new ArrayList<>();
-        strList.add(name);
-        strList.add(quantity);
-        strList.add(price);
-        StringBuilder sb = new StringBuilder();
-        for (String str : strList) {
-            sb.append(str);
-            sb.append("\t");
-        }
-        return sb.toString();
-    }
-
-    public Map<String, String> expectedProduct() {
-        return product.getProduct();
     }
 }
