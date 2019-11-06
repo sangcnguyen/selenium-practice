@@ -1,10 +1,10 @@
-package vn.kms.course.selenium.tests;
+package com.github.sn.tests;
 
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Test;
-import vn.kms.course.selenium.bases.BaseTest;
-import vn.kms.course.selenium.pages.HomePage;
-import vn.kms.course.selenium.pages.LoginPage;
+import com.github.sn.bases.BaseTest;
+import com.github.sn.pages.HomePage;
+import com.github.sn.pages.LoginPage;
+import org.testng.Assert;
+import org.testng.annotations.Test;
 
 public class LoginTest extends BaseTest {
 
@@ -13,16 +13,16 @@ public class LoginTest extends BaseTest {
         HomePage homePage = new HomePage(webDriver);
         LoginPage loginPage = new LoginPage(webDriver);
         loginPage.goToPage();
-        loginPage.logIn("admin@sample.com", "admin");
+        loginPage.logIn("admin@example.com", "admin");
 
-        Assertions.assertTrue(homePage.getHomePage());
-        String[] expectedOutputAfterLogin = {"DASHBOARD", "YOUR ACCOUNT", "LOG OUT"};
-        Assertions.assertArrayEquals(expectedOutputAfterLogin, homePage.getTextOnMenu().toArray());
+        Assert.assertEquals("Log out", homePage.getLogOutText());
+        String[] expectedOutputAfterLogin = {"ENGLISH", "DASHBOARD", "YOUR ACCOUNT", "LOG OUT"};
+        Assert.assertEquals(expectedOutputAfterLogin, homePage.getTextOnMenu().toArray());
 
         homePage.clickLogout();
 
-        String[] expectedOutputAfterLogout = {"REGISTER", "LOG IN"};
-        Assertions.assertArrayEquals(expectedOutputAfterLogout, homePage.getTextOnMenu().toArray());
-        Assertions.assertEquals("You have been successfully logged out.", homePage.getMessSuccessful());
+        Assert.assertEquals("You have been successfully logged out.", homePage.getMessSuccessful());
+        String[] expectedOutputAfterLogout = {"ENGLISH", "REGISTER", "LOG IN"};
+        Assert.assertEquals(expectedOutputAfterLogout, homePage.getTextOnMenu().toArray());
     }
 }

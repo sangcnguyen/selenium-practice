@@ -1,14 +1,15 @@
-package vn.kms.course.selenium.pages;
+package com.github.sn.pages;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import vn.kms.course.selenium.bases.BasePage;
+import com.github.sn.bases.BasePage;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class HomePage extends BasePage {
+
     public HomePage(WebDriver webDriver) {
         super(webDriver);
         path = "/";
@@ -18,13 +19,13 @@ public class HomePage extends BasePage {
     private WebElement logoutLink;
 
     @FindBy(xpath = "//*[contains(concat(' ',@class,' '),' float-right ')]/li")
-    private List<WebElement> menuTxt;
+    private List<WebElement> menuText;
 
     @FindBy(id = "XMLID_124_")
-    private WebElement logoImg;
+    private WebElement logoImage;
 
     @FindBy(xpath = "//*[contains(concat(' ',@class,' '),' alert alert-success ')]")
-    private WebElement logoutMess;
+    private WebElement logoutMessage;
 
     public void clickLogout() {
         logoutLink.click();
@@ -32,21 +33,21 @@ public class HomePage extends BasePage {
 
     public List<String> getTextOnMenu() {
         List<String> labelList = new ArrayList<>();
-        for (WebElement element : menuTxt) {
+        for (WebElement element : menuText) {
             labelList.add(element.getText());
         }
         return labelList;
     }
 
-    public boolean getHomePage() {
-        return logoImg.isDisplayed();
+    public String getLogOutText() {
+        return logoutLink.getText();
     }
 
     public String getMessSuccessful() {
-        return removeChar(logoutMess.getText(), 0).trim();
+        return removeChar(logoutMessage.getText(), 0).trim();
     }
 
-    public String removeChar(String s, int p) {
+    private String removeChar(String s, int p) {
         return s.substring(0, p) + s.substring(p + 1);
     }
 }
