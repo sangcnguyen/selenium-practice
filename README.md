@@ -1,3 +1,5 @@
+> This repo is outdated, because the new version of the website is released [here](https://github.com/mirumee/saleor). You can use this repo such as code structure for your project or learning purpose 
+
 Selenium Practice
 ===========
 # Installation
@@ -5,10 +7,10 @@ Selenium Practice
 2. Maven: Maven is a tool to manage the program lifecycle and dependencies. In this framework, its main purpose is to manage dependencies. You can download it [here](https://maven.apache.org/download.cgi) and find the installation guide [here](https://maven.apache.org/install.html). In case you don't know how to set environment variables, you can find the instruction [here](https://www.java.com/en/download/help/path.xml)
 
 # Write tests
-These cases are to test the Saleor system, it's avaiable at https://demo.getsaleor.com/en/.
+These cases are to test the Saleor system.
 ## Testcase 1: Login successfully
 1. Navigate user to login page
-2. Fill in username/password fields with valid credentials: admin@sample.com/Kms@2017
+2. Fill in username/password fields with valid credentials
 3. Click Login btn. Expected result: 
   * User is navigated to Home page. 
   * On the top-right corner, there're three items: DASHBOARD, YOUR ACCOUNT and LOG OUT
